@@ -1,0 +1,21 @@
+body{
+  background: linear-gradient(
+    181.15deg,
+    #7E5002 20.16%,
+    #E69405 36.19%,
+    #FAD121 98.57%
+  )#FAD121 no-repeat;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #3D1132;
+  font-weight: bold;
+}
+
+@media (min-width: 800px){
+  body{
+    font-size: 24px;
+    line-height: 33px;
+  }
+}
+

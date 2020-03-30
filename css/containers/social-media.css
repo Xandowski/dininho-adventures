@@ -1,0 +1,12 @@
+.social-media {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: var(--gap-medium);
+}
+
+@media (min-width: 800px) {
+  .social-media{
+    justify-content: center;
+    margin-bottom: var(--gap-very-large);
+  }
+}

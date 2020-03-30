@@ -1,0 +1,23 @@
+.button-dino {
+  display: block;
+  text-indent: -9999px;
+  width: 35%;
+  width: 196px;
+  height: 50px;
+  background-image: url(../../assets/Button.png);
+  background-size: 100%;
+  margin: 10px auto auto;
+  transition: transfor 100ms linear;
+}
+
+.button-dino:hover{
+  transform: scale(1.05);
+}
+
+@media (min-width: 800px){
+  .button-dino{
+    width: 320px;
+    height: 80px;
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,89 @@
+.separator-dino {
+  --half-width-egg: 11px;
+
+  background: url('../../assets/egg.png') no-repeat;
+  background-size: auto 22px;
+  background-position: center;
+  height: 22px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: var(--gap-big) 0;
+}
+
+.separator-dino.-basketegg{
+  --half-width-basket: 30px;
+
+  background-image: url('../../assets/basketeggs.png');
+  background-size: 60px auto;
+  height: 58px;
+}
+
+.separator-dino::before,
+.separator-dino::after{
+  content: '';
+  width: calc(50% - var(--half-width-egg) - var(--gap-very-small));
+  height: 3px;
+  background: var(--color-first);
+}
+
+.separator-dino.-basketegg::before,
+.separator-dino.-basketegg::after{
+  width: calc(50% - var(--half-width-basket) - var(--gap-very-small));
+}
+
+.separator-dino::before{
+  border-radius: 0 2px 2px 0;
+}
+
+.separator-dino::after{
+  border-radius: 2px 0 0 2px;
+}
+
+@media (min-width: 800px) {
+  .separator-dino {
+    --half-width-egg: 18px;
+
+    background: url('../../assets/ovodesktop.png') no-repeat;
+    background-size: auto 44px;
+    background-position: center;
+    height: 44px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: var(--gap-big) 0;
+  }
+
+  .separator-dino.-basketegg{
+    --half-width-basket: 38px;
+
+    background-image: url('../../assets/basketeggs.png');
+    background-size: 76px auto;
+    height: 120px;
+  }
+
+  .separator-dino::before,
+  .separator-dino::after{
+    content: '';
+    width: calc(45% - var(--half-width-egg) - var(--gap-very-small));
+    height: 3px;
+    background: var(--color-first);
+  }
+
+  .separator-dino::before,
+  .separator-dino.-basketegg::before{
+    margin-left: 45px;
+  }
+
+  .separator-dino::after,
+  .separator-dino.-basketegg::after{
+    margin-right: 45px;
+  }
+
+  .separator-dino.-basketegg::before,
+  .separator-dino.-basketegg::after{
+    width: calc(45% - var(--half-width-basket) - var(--gap-very-small));
+  }
+}

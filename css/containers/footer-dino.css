@@ -1,0 +1,12 @@
+footer{
+  display: flex;
+  flex-direction: column;
+  /* margin: var(--gap-small) var(--gap-large) var(--gap-big); */
+}
+
+@media (min-width: 800px) {
+  footer{
+    justify-content: center;
+    width: 100%;
+  }
+}

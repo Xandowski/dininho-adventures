@@ -1,0 +1,12 @@
+.title-dino{
+  font-size: 28px;
+  line-height: 36px;
+  color: #FCFDFC;
+  margin: var(--gap-big) 0 var(--gap-big) 0;
+}
+
+@media (min-width: 800px) {
+  .title-dino{
+    font-size: var(--gap-very-large);
+  }
+}

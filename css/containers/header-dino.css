@@ -1,0 +1,26 @@
+.header-dino{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  min-height: 300px;
+  height: 42%;
+  background:
+              url('../../assets/floor.png') bottom center / auto 180px repeat no-repeat,
+              url('../../assets/mountain1.png') bottom center / contain no-repeat,
+              url('../../assets/mountain2.png') bottom center / contain no-repeat,
+              url('../../assets/sky.png') top center / contain no-repeat var(--color-sky);
+}
+
+.header-dino > .logo{
+  position: absolute;
+  max-width: 290px;
+  width: 70%;
+  top: var(--gap-big);
+}
+
+.header-dino > .dininho{
+  position: absolute;
+  bottom: calc(var(--gap-very-large) + 90px);
+  width: 30px;
+}
+

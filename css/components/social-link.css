@@ -1,0 +1,26 @@
+.social-link{
+  display: block;
+  width: 30px;
+  height: 30px;
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+}
+
+.social-link[href='https://twitch.tv/dininho'] {
+  background-image: url(../../assets/twitch.png);
+}
+
+.social-link[href='https://twitter.com/dinobonoide'] {
+  background-image: url(../../assets/twitter.png);
+}
+
+.social-link[href='https://discordapp.com/invite/96hejEn'] {
+  background-image: url(../../assets/discord.png);
+}
+
+@media (min-width: 800px) {
+  .social-link{
+    margin-left: 25px;
+    padding-right: 25px;
+  }
+}

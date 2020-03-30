@@ -1,0 +1,6 @@
+.text-footer {
+  color: var(--color-second);
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+}
