@@ -4,10 +4,11 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  width: 100%;
 }
 
 .video-dino{
-  width: 90%;
+  width: 100%;
 }
 
 .wrapper-video-dino::before{

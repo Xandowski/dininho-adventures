@@ -33,15 +33,14 @@
 
     <hr class="separator-dino">
 
-    <div class="wrapper-video-dino">
-      <video class="video-dino" poster="assets/Screenshotfromtrailer.png" controls>
-        <source src="assets/treiler_pronto.mp4" type="video/mp4">
-      </video>
-      <i class="play" data-feather="play-circle"></i>
-    </div>
-
     <ul class="carousel-dino">
-      <li data-id="0" class="item"><img src="assets/carousel-img-1.png" alt=""></li>
+      <li data-id="0" class="item">
+        <div class="wrapper-video-dino">
+          <video class="video-dino" poster="assets/Screenshotfromtrailer.png" controls>
+            <source src="assets/treiler_pronto.mp4" type="video/mp4">
+          </video>
+        </div>
+      </li>
       <li data-id="1" class="item -left"><img src="assets/carousel-img-2.png" alt=""></li>
       <li data-id="2" class="item -center"><img src="assets/carousel-img-3.png" alt=""></li>
       <li data-id="3" class="item -right"><img src="assets/carousel-img-4.png" alt=""></li>
@@ -56,6 +55,7 @@
       <li data-id="12" class="item"><img src="assets/carousel-img-13.png" alt=""></li>
       <li data-id="13" class="item"><img src="assets/carousel-img-14.png" alt=""></li>
       <li data-id="14" class="item"><img src="assets/carousel-img-15.png" alt=""></li>
+      <li data-id="15" class="item"><img src="assets/carousel-img-1.png" alt=""></li>
     </ul>
 
     <a class="button-dino" href="https://store.steampowered.com/app/1230760/Dininho_Adventures/">Jogar</a>
@@ -112,11 +112,6 @@
         </li>
       </ul>
     </footer>
-    </script>
-    <script src="https://unpkg.com/feather-icons"></script>
-    <script>
-      feather.replace()
-    </script>
 
     <script src="js/video-dino.js"></script>
     <script src="js/components/easteregg.js"></script>
