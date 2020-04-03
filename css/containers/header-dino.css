@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   position: relative;
-  min-height: 300px;
   height: 42%;
+  min-height: 275px;
   background:
               url('../../assets/floor.png') bottom center / auto 180px repeat no-repeat,
               url('../../assets/mountain1.png') bottom center / contain no-repeat,
@@ -13,9 +13,10 @@
 
 .header-dino > .logo{
   position: absolute;
+  top: var(--gap-big);
+  min-width: 250px;
   max-width: 290px;
   width: 70%;
-  top: var(--gap-big);
 }
 
 .header-dino > .dininho{
