@@ -18,10 +18,10 @@
 @import 'components/video-dino.css';
 @import 'components/button-dino.css';
 @import 'components/key-gif.css';
+@import 'components/carousel-dino.css';
 
 @import 'containers/header-dino.css';
 @import 'containers/section-dino.css';
 @import 'containers/social-media.css';
 @import 'containers/footer-dino.css';
-@import 'containers/gallery-cell.css'
 
