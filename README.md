@@ -5,5 +5,3 @@
 
 [**Link para o Figma**](https://www.figma.com/file/ymr102dGHLHCINbR1dqYWr/Dininho-Adventures?node-id=591%3A274)
 
-**Alem de html, css e js, utilizei:**
-* [flickity](https://flickity.metafizzy.co/)
